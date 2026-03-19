@@ -1,42 +1,36 @@
-# Travel Arrange Application
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-旅行の手配・管理を簡単にするアプリケーション。
+## Getting Started
 
-## 概要
-
-旅行の計画から予約管理までを一元化し、快適な旅行体験をサポートします。
-
-## 主な機能
-
-- **旅行プランの作成** — 目的地・日程・予算を設定して旅行プランを作成
-- **交通手段の手配** — 飛行機・新幹線・レンタカーなどの検索・予約管理
-- **宿泊施設の管理** — ホテル・旅館の予約情報を一覧管理
-- **スケジュール管理** — 日ごとの行程をタイムライン形式で表示
-- **持ち物リスト** — 旅行に必要な持ち物のチェックリスト
-- **費用管理** — 旅行全体の予算と実績を管理
-
-## 技術スタック
-
-（未定 — 今後決定）
-
-## セットアップ
+First, run the development server:
 
 ```bash
-# リポジトリをクローン
-git clone <repository-url>
-cd travel-arrange-application
-
-# 依存関係のインストール（技術スタック決定後に記載）
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## ディレクトリ構成
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
-travel-arrange-application/
-├── README.md
-└── (今後追加)
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## ライセンス
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-MIT
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
